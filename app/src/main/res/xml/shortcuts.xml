@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:shortcutId="resident_screen"
+        android:enabled="true"
+        android:icon="@mipmap/ic_launcher"
+        android:shortcutShortLabel="@string/Resident_Screen"
+        android:shortcutLongLabel="@string/Resident_Screen">
+
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.example.beacon"
+            android:targetClass="com.example.beacon.MainActivity" />
+    </shortcut>
+
+</shortcuts>
